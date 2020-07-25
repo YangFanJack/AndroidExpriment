@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.StudentLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学生登录"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/et_stu_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="帐号"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_stu_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="前往注册"
+        android:textSize="10sp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:onClick="click_loginToRegister"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:onClick="clickStuLogin"
+        />
+
+    <TextView
+        android:id="@+id/tv_stu_login_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textColor="#e25e5f"
+        android:gravity="center"
+        />
+</LinearLayout>

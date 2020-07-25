@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移动端考试系统"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        />
+    <Button
+        android:id="@+id/stu_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学生入口"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:onClick="clickStuEnter"
+        />
+    <Button
+        android:id="@+id/tea_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="老师入口"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:onClick="clickTeaEnter"
+        />
+
+</LinearLayout>

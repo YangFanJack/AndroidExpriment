@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tea_btn_one"
+        android:title="新建试卷"
+        />
+    <item
+        android:id="@+id/tea_btn_two"
+        android:title="新建题目"
+        />
+    <item
+        android:id="@+id/tea_btn_three"
+        android:title="查看试卷"
+        />
+    <item
+        android:id="@+id/tea_btn_four"
+        android:title="我的信息"
+        />
+</menu>
